@@ -46,4 +46,6 @@ public class BatchEntryController {
         batchEntryService.deleteEntry(id);
         return "🗑️ Document with ID " + id + " deleted successfully!";
     }
+
+
 }
